@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table.border
+        {
+            border-collapse: collapse;
+        }
+        table.border th
+        {
+            padding: 5px;
+            border: 1px solid black;
+        }
+        table.border td
+        {
+            padding: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table border=1 style="width: 100%;">
+        <tr>
+            <td style="width: 20%;"></td>
+            <td style="width: 60" align="center">
+                <table>
+                    <tr><td align="center">PANADERIA LOLA</td></tr>
+                    <tr><td align="center">DIRECCION: LA ESPERANZA SEDALIB</td></tr>
+                    <tr><td align="center">TELEFONO:967399729</td></tr>
+                </table>
+            </td>
+            <td style="width: 20%">
+                <table class="border" style="width: 100%;">
+                    <tr><td align="center">RUC: 20456897421</td></tr>
+                    <tr><td align="center"></td>TIPO DE DOCUMENTO</tr>
+                    <tr><td align="center"></td>NRO DE DOCUMENTO</tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height = "20"></td></tr>
+        <tr>
+            <td colspan="2">
+                <table style="width: 100%;">
+                    <tr>
+                        <td colspan="1" style="width: 20%;">
+                            Cliente:
+                        </td>
+                        <td colspan="1" style="width: 80%; border-bottom: 1px solid black ;" >
+                            @Cliente
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="1" style="width: 20%;">
+                            Documento:
+                        </td>
+                        <td colspan="1" style="width: 80%; border-bottom: 1px solid black ;" >
+                            @Documento
+                        </td>
+                        <td colspan="1" style="width: 20%;">
+                            Fecha:
+                        </td>
+                        <td colspan="1" style="width: 80%; border-bottom: 1px solid black ;" >
+                            @Fecha
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr><td colspan="3" height="20"></td></tr>
+
+        <tr>
+            <td colspan="3">
+                <table class="border" style="width: 100%;">
+                    <thead style="background-color: #D8D8D8;">
+                        <tr>
+                            <th>Cant.</th>
+                            <th>Descripcion</th>
+                            <th>P. Unitario</th>
+                            <th>Importe</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5</td>
+                            <td>tortas</td>
+                            <td>20</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 0px !important;"></td>
+                            <td  style="border: 0px !important;"></td>
+                            <td align="right">Total:</td>
+                            <td>@TOTAL</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
